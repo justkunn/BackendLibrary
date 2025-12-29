@@ -158,9 +158,21 @@ public class BookService {
         bookEntity.setAuthor(book.getAuthor());
         bookEntity.setRelease(book.getRelease());
         bookEntity.setStock(book.getStock());
-        bookEntity.setCoverUrl(book.getCoverUrl());
-        if (book.getCoverBase64() != null && !book.getCoverBase64().isBlank()) {
-            byte[] coverBytes = Base64.getDecoder().decode(book.getCoverBase64());
+        String coverBase64 = book.getCoverBase64();
+        String coverUrl = book.getCoverUrl();
+        if ((coverBase64 == null || coverBase64.isBlank())
+                && (coverUrl == null || coverUrl.isBlank())
+                && book.getCover() != null && !book.getCover().isBlank()) {
+            if (book.getCover().startsWith("http://") || book.getCover().startsWith("https://")) {
+                coverUrl = book.getCover();
+            } else {
+                coverBase64 = book.getCover();
+            }
+        }
+
+        bookEntity.setCoverUrl(coverUrl);
+        if (coverBase64 != null && !coverBase64.isBlank()) {
+            byte[] coverBytes = Base64.getDecoder().decode(coverBase64);
             bookEntity.setCover(coverBytes);
         }
         log.info("Mapped BookEntity: {}", bookEntity);
