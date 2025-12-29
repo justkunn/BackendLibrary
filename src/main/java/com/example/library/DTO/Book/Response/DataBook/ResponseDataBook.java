@@ -23,6 +23,6 @@ public class ResponseDataBook {
     private Integer Stock;
     @JsonProperty("cover_base64")
     private String CoverBase64;
-    @JsonProperty("cover_url")
+    @JsonProperty("cover")
     private String CoverUrl;
 }
