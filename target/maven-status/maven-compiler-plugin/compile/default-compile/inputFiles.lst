@@ -10,12 +10,15 @@ D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Book\Re
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Book\Response\StatusResponseList.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Employee\Request\RequestDataEmployee.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Employee\Response\MainResponse.java
+D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Employee\Response\MainResponseList.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Employee\Response\ResponseDataEmployee.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Loan\Request\RequestDataLoan.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Loan\Response\CoreResponse.java
+D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Loan\Response\CoreResponseList.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Loan\Response\ResponseDataLoan.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Member\Request\RequestDataMember.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Member\Response\CoreResponse.java
+D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Member\Response\CoreResponseList.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Member\Response\ResponseDataMember.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Request\RequestDataLoan.java
 D:\personalProject\Library\Backend\src\main\java\com\example\library\DTO\Response\coreResponse.java

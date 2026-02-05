@@ -7,6 +7,7 @@ com\example\library\Services\BookService.class
 com\example\library\Entity\BookEntity.class
 com\example\library\Controller\MemberController.class
 com\example\library\Repository\MemberRepository.class
+com\example\library\DTO\Loan\Response\CoreResponseList.class
 com\example\library\DTO\Member\Response\CoreResponse.class
 com\example\library\Repository\BookRepository.class
 com\example\library\DTO\Book\Response\StatusResponse.class
@@ -15,9 +16,11 @@ com\example\library\DTO\Response\coreResponse.class
 com\example\library\Service\key\generateKey.class
 com\example\library\Services\MemberService.class
 com\example\library\DTO\Employee\Request\RequestDataEmployee.class
+com\example\library\DTO\Member\Response\CoreResponseList.class
 com\example\library\DTO\Book\Response\DataBook\ResponseDataBook.class
 com\example\library\Config\CorsConfig.class
 com\example\library\DTO\Employee\Response\MainResponse.class
+com\example\library\DTO\Employee\Response\MainResponseList.class
 com\example\library\DTO\Loan\Response\ResponseDataLoan.class
 com\example\library\LibraryApplication.class
 com\example\library\Repository\EmployeeRepository.class
